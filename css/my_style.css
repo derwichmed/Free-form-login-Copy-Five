@@ -1,0 +1,31 @@
+body{
+    background-color: #eaeaea
+}
+.form_login{
+    margin-top: 100px;
+    height: 400px;
+}
+.form_login > div{
+    background-color: white;
+    border: #d1d1d1 1px solid;
+    border-radius: 5px;
+    margin-top: 50px
+}
+.form_login > div > div > div:first-child{
+    margin-top: 20px
+}
+.form_login > div > div > div:first-child img{
+    width: 30px;
+    height: 30px
+}
+.form_login > div > div > div:nth-child(3) > div:first-child input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 48px;
+    color: white;
+    font-weight: bold;
+    border: none
+}
+.form_login > div > div > div:nth-child(3) > div:first-child{
+    border-right: #d1d1d1 1px solid
+}
